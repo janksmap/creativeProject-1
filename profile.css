@@ -3,6 +3,7 @@ body {
 }
 
 .profile-content {
+    margin-top: 5%;
     position: fixed;
     overflow-y: scroll;
     top: 0;
