@@ -1,3 +1,7 @@
+body {
+    background-image: url("waves.jpg");
+}
+
 .post {
     /* border: 1px solid black; */
     background-image: url("turtle.png");
