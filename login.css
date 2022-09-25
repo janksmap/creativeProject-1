@@ -1,0 +1,41 @@
+#login-container {
+    border: 3px solid black;
+    border-radius: 20px;
+    width: 40vw;
+    height: 40vh;
+    margin: 10% auto;
+    background-color: white;
+    opacity: 80%;
+}
+
+h1 {
+    text-align: center;
+}
+
+.current-profile {
+    align-items: center;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.current-profile img {
+    width: 200px;
+    border-radius: 20px;
+}
+
+.current-profile img:hover {
+    cursor: pointer;
+    box-shadow: 5px 5px 2px #8bca79;
+}
+
+.current-profile p {
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+@media screen and (max-width: 900px) {
+    #login-container {
+        height: 300px;
+        width: 300px;
+    }
+}

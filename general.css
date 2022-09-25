@@ -16,7 +16,6 @@ body {
     width: 82%;
     height: 65.5%;
     background-color: #8bca79;
-    /* opacity: 80%; */
     opacity: 100%;
     border-radius: 100%;
     margin: -7.15% auto;
@@ -35,8 +34,12 @@ body {
     height: 31%;
 }
 
-.handle {
-    
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 1%;
+    color: #47713b;
+    font-weight: bold;
 }
 
 @media screen and (max-width: 900px) {
